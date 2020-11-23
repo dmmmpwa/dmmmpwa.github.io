@@ -26,6 +26,25 @@
 
     <script type="module" src="cmp/mi-footer.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
+	  <title>Conversion temperaturas</title>
+<SCRIPT LANGUAGE="JavaScript">
+
+function cafaren(tabla) {
+c=tabla.centigrad.value;
+f=9*c/5+32;
+f=Math.round(f*100)/100;
+tabla.farenheit.value=f;
+}
+function cacenti(tabla) {
+f=tabla.farenheit.value;
+c=5*(f-32)/9;
+c=Math.round(c*100)/100;
+tabla.centigrad.value=c;
+}
+// Fin -->
+
+</SCRIPT>
+</head>
  <body background="../fondo1m.gif" vlink="#0000FF">
 
 <p align="center"><b><font size="6">Temperaturas</font></b></p>
