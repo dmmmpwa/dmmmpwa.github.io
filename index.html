@@ -1,35 +1,13 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ejemplo de PWA</title>
-<script src="js/registraServiceWorker.js"></script>
-
- <!-- Ícono para la página web. Debe ponerse en la raíz de la página. -->
-<link rel="icon" sizes="32x32" href="favicon.ico">
-
- <!-- Color de la barra de navegación de Chrome en dispositivos móviles. -->
-<meta name="theme-color" content="#81d4f4">
-
- <!-- Configuración de la PWA: Chrome y Edge. -->
-<link rel="manifest" href="manifest.json">
-
- <!-- Configuración para Web Clip en Safari. -->
-<meta name="apple-mobile-web-app-title" content="dmppwa">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="apple-touch-icon" href="img/icono2048.png">
-<link rel="apple-touch-icon" sizes="256x256" href="img/icono256.png">
-<link rel="apple-touch-icon" sizes="1024x1024" href="img/icono1024.png">
-<link rel="apple-touch-icon" sizes="2048x2048" href="img/icono2048.png">
-
- <script type="module" src="cmp/mi-footer.js"></script>
-<link rel="stylesheet" href="css/estilos.css">
+<meta http-equiv="Content-Language" content="es">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Conversion temperaturas</title>
 <SCRIPT LANGUAGE="JavaScript">
-<!-- Programado por JM Soft -->
-<!-- Página personal: http://mimosa.pntic.mec.es/jgomez53 -->
-<!-- Inicio
+
 function cafaren(tabla) {
 c=tabla.centigrad.value;
 f=9*c/5+32;
@@ -52,37 +30,39 @@ tabla.centigrad.value=c;
 <p align="center"><b><font size="6">Temperaturas</font></b></p>
 <p align="center">&nbsp;</p>
 <div align="center">
-<center>
-<form name="tabla">
-<table border="0" cellspacing="10" cellpadding="5">
-<tr>
-<td>
-<p align="center"><font size="4">Centigrados<br>
-</font><input type="text" name="centigrad" size="20"></p>
-</td>
-<td valign="baseline" align="center">
-</td>
-<td>
-<p align="center"><font size="4">Farenheit<br>
-</font><input type="text" name="farenheit" size="20"></p>
-</td>
-</tr>
-<tr>
-<td valign="middle" align="center">
-<p align="center">
-<input type="button" value="Convertir a Farenheit" onClick="cafaren(this.form)">
-</td>
-<td valign="middle" align="center">
-<input type="Reset" value="Borrar">
-</td>
-<td valign="middle" align="center">
-<input type="button" value="Convertir a Centigrados" onClick="cacenti(this.form)">
-</td>
-</tr>
-</table>
-</form>
-</center>
+  <center>
+  <form name="tabla">
+  <table border="0" cellspacing="10" cellpadding="5">
+    <tr>
+      <td>
+        <p align="center"><font size="4">Centigrados<br>
+        </font><input type="text" name="centigrad" size="20"></p>
+      </td>
+      <td valign="baseline" align="center">
+      
+      </td>
+      <td>
+        <p align="center"><font size="4">Farenheit<br>
+        </font><input type="text" name="farenheit" size="20"></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" align="center">
+        <p align="center">
+      <input type="button" value="Convertir a Farenheit" onClick="cafaren(this.form)">
+      </td>
+      <td valign="middle" align="center">
+        <input type="Reset" value="Borrar">
+      </td>
+      <td valign="middle" align="center">
+        <input type="button" value="Convertir a Centigrados" onClick="cacenti(this.form)">
+      </td>
+    </tr>
+  </table>
+  </form>
+  </center>
 </div>
+
 
 
 <p align="center">
@@ -92,17 +72,16 @@ tabla.centigrad.value=c;
 &nbsp;
 </p>
 <div align="center">
-<center>
-<table border="0" cellpadding="4" cellspacing="6">
-<tr>
-</tr>
-</table>
-</center>
+  <center>
+  <table border="0" cellpadding="4" cellspacing="6">
+    <tr>
+      
+    </tr>
+  </table>
+  </center>
 </div>
-<footer>
-<p>
-<mi-footer></mi-footer>
-</p>
-</footer>
 </body>
+
+
+
 </html>
