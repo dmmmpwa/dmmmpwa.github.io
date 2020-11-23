@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="es">
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+      <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+      <meta name="ProgId" content="FrontPage.Editor.Document">
+
     <title>Ejemplo de PWA</title>
     <script src="js/registraServiceWorker.js"></script>
 
@@ -26,6 +31,24 @@
 
     <script type="module" src="cmp/mi-footer.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    
+    <SCRIPT LANGUAGE="JavaScript">
+
+function cafaren(tabla) {
+c=tabla.centigrad.value;
+f=9*c/5+32;
+f=Math.round(f*100)/100;
+tabla.farenheit.value=f;
+}
+function cacenti(tabla) {
+f=tabla.farenheit.value;
+c=5*(f-32)/9;
+c=Math.round(c*100)/100;
+tabla.centigrad.value=c;
+}
+// Fin -->
+
+</SCRIPT>
   <body background="../fondo1m.gif" vlink="#0000FF">
 
 <p align="center"><b><font size="6">Temperaturas</font></b></p>
